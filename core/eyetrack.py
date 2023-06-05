@@ -52,9 +52,3 @@ class EyeTrack:
                 
                 self.visualize_win()
 
-
-if __name__ == '__main__':
-    et = EyeTrack()
-    et.eyetrack()
-    
-    

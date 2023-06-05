@@ -40,11 +40,4 @@ class App(EyeTrack):
         else:
             self.vis = True
         
-        
-if __name__ == "__main__":
-    root = tk.Tk()
-    root.geometry('300x200')
-    root.title('Eyetrack')
-    root.iconbitmap(r'C:\Users\RD\Desktop\Eyetrack_for_BMS_and_DCS\core\favicon.ico')
-    app = App(root)
-    root.mainloop()
+ 

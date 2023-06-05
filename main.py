@@ -4,7 +4,7 @@ def main():
     root = tk.Tk()
     root.geometry('300x200')
     root.title('Eyetrack')
-    root.iconbitmap(r'core\favicon.ico')
+    root.iconbitmap('core/favicon.ico')
     app = App(root)
     root.mainloop()
 
