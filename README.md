@@ -2,7 +2,7 @@
 To use this software, you must have Python3.9 or Python 3.10 installed.
 
 # Environment Setup
-``` pip install -r requirements.txt``` or ``` python3 -m pip install -r requirements.txt```
+``` pip install -r requirements.txt``` or ```python3 -m pip install -r requirements.txt```
 
 # Run
 ``` python3 main.py```
