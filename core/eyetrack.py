@@ -3,7 +3,7 @@ import mediapipe as mp
 import pyautogui
 
 class EyeTrack:
-    def __init__(self) -> None:
+    def __init__(self):
       
         self.cam = cv2.VideoCapture(0)
         self.face_mesh = mp.solutions.face_mesh.FaceMesh(refine_landmarks=True)
